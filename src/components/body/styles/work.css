@@ -1,0 +1,51 @@
+.container {
+  align-self: center;
+    width: 80%;
+    height: 80vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    background-color: white;
+  }
+  
+  .container .article {
+    height: 80vh;
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    box-shadow: 1px 8px 50px 12px rgba(0,0,0,0.76);
+  }
+  
+  .container .article:nth-child(1) {
+    background-color: #A8FFAC;
+  }
+  
+  .container .article:nth-child(2) {
+    background-color: #FFA8A8;
+  }
+  
+  .container .article:nth-child(3) {
+    background-color: #D9A8FF;
+  }
+  
+  .container .article:nth-child(4) {
+    background-color: #7EBBE9;
+  }
+  
+  h2 {
+    font-size: 40px;
+  }
+  .wonderOfYou{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    padding-bottom: 40px;
+  }
+  .workTitle{
+    position: relative;
+    top: -30px;
+    font-family: 'Press Start 2P', cursive;
+  }

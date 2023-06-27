@@ -1,0 +1,21 @@
+footer{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer h1{
+    font-size: 25px;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    margin: 15px;
+}
+.socialImg{
+    display: flex;
+
+}
+.socialImg img{
+    width: 50px;
+    height: auto;
+    filter: invert(100%);
+}

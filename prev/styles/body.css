@@ -1,0 +1,110 @@
+.body{
+    display: flex;
+}
+.me{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-left: 3%;
+    width: 50%;
+}
+.me h1{
+    font-size: 40px;
+    font-family: 'Press Start 2P', cursive;
+    letter-spacing: 0px;
+}
+.me h2{
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 29px;
+    letter-spacing: 1px;
+}
+.me p{
+    margin-top: 30px;
+    width: 90%;
+    line-height: 21px;
+    text-indent: 45px;
+    font-family: 'Major Mono Display', monospace;
+}
+
+.tools{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tools h2{
+    margin-top: 10%;
+    margin-bottom: 2%;
+    font-family: 'Press Start 2P', cursive;
+}
+.tools li{
+    margin: 20px;
+    text-align: center;
+    font-family: 'DotGothic16', sans-serif;
+
+}
+#cut{
+    text-decoration: line-through;
+
+}
+.skillset{
+    display: flex;
+    flex-direction: row;
+}
+.skillImg{
+    width: 50%;
+    display: grid;
+    margin-top: 15px;
+
+}
+.skillImg img{
+    width: 30px;
+    height: auto;
+    margin: 1px;
+    filter: grayscale(100%);
+    /* filter: invert(100%); */
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ask{
+    margin: 40px 40px 30px 40px;
+    text-align: center;
+    /* font-size: 20px; */
+    font-family: 'Press Start 2P', cursive;
+    line-height: 35px;
+}
+.emailButton{
+    margin: 1%;
+    background-color: #fff;
+    color: #000;
+    padding: 2%;
+    width: 30%;
+    height: 10%;
+    text-align: center;
+    border: 5px solid #000;
+    border-radius: 4px;
+    font-family: 'Press Start 2P', cursive;
+    filter: drop-shadow(0px 1px 2px #fff);
+    cursor: pointer;
+}
+.emailButton a{
+    color: #000;
+}
+.emailButton:hover{
+    transform: translateY(-15px);
+    border: 5px solid #000;
+    filter: drop-shadow(0px 10px 5px #fff);
+    
+}
+
+.emailButton:active{
+    transition: all 0.1s;
+    transform: translateY(-5px);
+    border: 5px solid #fff;
+    filter: drop-shadow(0px 10px 5px #fff);
+    background-color: #111;
+    color: #fff;
+}
