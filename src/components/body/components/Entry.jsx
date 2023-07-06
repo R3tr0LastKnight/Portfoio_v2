@@ -6,7 +6,7 @@ function Entry(props) {
     <div className="term">
       <dt>
         <span className="preview" role="img" aria-label="img">
-          <a href={props.link}><img src={props.img} alt="" /></a>
+          <a target="blank" href={props.link}><img src={props.img} alt="" /></a>
         </span>
       </dt>
         <span className="title">{props.name}</span>

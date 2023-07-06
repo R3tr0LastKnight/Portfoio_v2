@@ -13,7 +13,7 @@ const Nav = () => {
           <a href="#work">work</a>
         </li>
         <li>
-          <a href="#guts1">About</a>
+          <a href="#aboutme">About</a>
         </li>
       </ul>
     </nav>

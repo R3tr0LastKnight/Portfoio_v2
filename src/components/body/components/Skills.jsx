@@ -23,12 +23,13 @@ const Skills = () => {
 
   return (
     <div class="body">
+      <div id="aboutme"></div>
       <div
         class="me"
         id="me"
       >
         <h1>Shubh Shahu</h1>
-        <h2>MERN Stack Web Developer</h2>
+        <h2>Full Stack Developer</h2>
         <p>
           Ingenious Web-developer, striving to improvise his skillset.As a
           developer, I take pride in delivering high-quality, maintainable code
@@ -49,10 +50,11 @@ const Skills = () => {
         <div className="skillz">
           <h2>-Skills-</h2>
           <div class="skillset">
-            <ul>
+            <ul className="ulSkills">
               {skill.map((sub) => {
                 return (
-                  <li>
+                  <a target="blank" href= {`https://en.wikipedia.org/wiki/${sub}`} >
+                    <li>
                     {sub}{" "}
                     <div className="skillImg">
                       <img
@@ -61,7 +63,9 @@ const Skills = () => {
                         alt=""
                       />
                     </div>
-                  </li>
+                    </li>
+                  </a>
+                  
                 );
               })}
             </ul>
@@ -70,9 +74,10 @@ const Skills = () => {
         <div className="hobbiz">
           <div class="skillset">
             <h2>-Hobbies-</h2>
-            <ul>
+            <ul className="ulSkills">
               {hobby.map((sub) => {
                 return (
+                  // <a target="blank" href= {`https://www.google.com/search?q=${sub}`} >
                   <li>
                     {sub}{" "}
                     <div className="hobbImg">
@@ -82,12 +87,15 @@ const Skills = () => {
                         alt=""
                       />
                     </div>
-                  </li>
+                    </li>
+                    // </a>
                 );
               })}
             </ul>
           </div>
-          <h2 className="resume"  >RESUME</h2>
+          <a href="https://drive.google.com/file/d/1BunyehKm2TRkWr2LHF8M2w8VMyZq8tEb/view?usp=sharing" target="blank" >
+            <h2 className="resume"  >RESUME</h2>
+            </a>
         </div>
       </div>
     </div>

@@ -17,9 +17,11 @@ html {
     letter-spacing: 0px;
 }
 .me h2{
-    font-family: 'DotGothic16', sans-serif;
-    font-size: 29px;
+    font-family: 'Press Start 2P', cursive;
+        /* font-family: 'DotGothic16', sans-serif; */
+        font-size: 20px;
     letter-spacing: 1px;
+    margin-top: 5px;
 }
 .me p{
     margin-top: 30px;
@@ -74,6 +76,7 @@ html {
     margin: 20px;
     text-align: center;
     font-family: 'DotGothic16', sans-serif;
+    letter-spacing: 2px;
 
 }
 .hobbiz{
@@ -86,15 +89,19 @@ html {
     display: flex;
     flex-direction: column;
 }
+.ulSkills {
+    padding: 0px 50px;
+}
 .skillset li{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .skillImg img{
     width: 30px;
     height: auto;
     margin: 1px;
     filter: grayscale(100%);
+    float: right;
     /* filter: invert(100%); */
 }
 .hobbImg img {
@@ -153,4 +160,10 @@ html {
     width: 100%;
     height: auto;
     
+}
+#aboutme {
+    position: relative;
+    left: 0px;
+    top: -90px;
+    /* Adjust this */
 }
