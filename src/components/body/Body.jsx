@@ -9,7 +9,7 @@ import z from "./media/z.jpg";
 const Body = () => {
   return (
     <div>
-      <Guts src={X} />
+      <Guts  src={X} />
       <Skills />
       <Guts src={z} />
       <Work />

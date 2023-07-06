@@ -7,13 +7,13 @@ const Nav = () => {
       <h1>R3rt0</h1>
       <ul>
         <li>
-          <a href="#socials">Socials</a>
+          <a href="#social">Socials</a>
+        </li>
+        <li >
+          <a href="#work">work</a>
         </li>
         <li>
-          <a href="#contact">work</a>
-        </li>
-        <li>
-          <a href="#me">About</a>
+          <a href="#guts1">About</a>
         </li>
       </ul>
     </nav>

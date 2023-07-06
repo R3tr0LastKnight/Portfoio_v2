@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 .body{
     display: flex;
 }
@@ -149,4 +152,5 @@
 .guts img{
     width: 100%;
     height: auto;
+    
 }

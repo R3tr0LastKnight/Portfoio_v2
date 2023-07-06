@@ -1,0 +1,38 @@
+  h2 {
+    font-size: 40px;
+  }
+
+  .wonderOfYou {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    padding-bottom: 40px;
+  }
+
+  .workTitle {
+    position: relative;
+    top: -30px;
+    font-family: 'Press Start 2P', cursive;
+    color: #000;
+    background-color: #fff;
+  }
+
+  .dictionary {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+
+
+
+  .preview img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* .name,
+  .link {
+    color: #000;
+  } */

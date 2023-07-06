@@ -87,7 +87,7 @@ const Skills = () => {
               })}
             </ul>
           </div>
-          <h2 className="resume">RESUME</h2>
+          <h2 className="resume"  >RESUME</h2>
         </div>
       </div>
     </div>
