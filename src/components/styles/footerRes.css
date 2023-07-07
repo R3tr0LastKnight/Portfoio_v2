@@ -1,7 +1,7 @@
 @media (max-width: 600px) {
     .footer {
         background-size: contain;
-
+        height: 300px;
     }
 
     .socials {
