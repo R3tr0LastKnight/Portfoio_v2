@@ -1,7 +1,8 @@
 @media (max-width: 600px) {
     .footer {
-        background-size: contain;
-        height: 300px;
+        /* background-size: contain; */
+            /* background-repeat: no-repeat; */
+            height: max-content;
     }
 
     .socials {
@@ -13,6 +14,7 @@
         width: 50%;
         height: auto;
         cursor: pointer;
+        margin-bottom: 85px;
     }
 
     #soc {
