@@ -1,5 +1,6 @@
 import React from "react";
 import imgs from "../media";
+import "./styles/skillsRes.css";
 
 const Skills = () => {
   let skill = [

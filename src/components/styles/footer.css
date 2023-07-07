@@ -29,17 +29,11 @@
 .socials {
     margin-left: 5%;
     padding-top: 5%;
+    /* padding-bottom: 15%; */
 }
 
 .footer {
     /* background-image: 'url(./media/y.jpg)'; */
     background-size: cover;
-    height: 600px;
-}
-
-footer .copyright {
-    position: absolute;
-    bottom: 0;
-
-
+    height: 550px;
 }

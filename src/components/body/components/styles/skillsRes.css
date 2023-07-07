@@ -1,0 +1,69 @@
+@media (max-width: 600px) {
+    .body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .me {
+        width: 100%;
+        margin: 10px;
+        margin-left: 0;
+    }
+
+    .me h2,
+    .me h1 {
+        margin: 0 15px;
+    }
+
+    .me h1 {
+        font-size: 25px;
+    }
+
+    .me h2 {
+        font-size: 19px;
+        margin-top: 10px;
+    }
+
+    .me p {
+        margin: 15px 15px;
+        font-size: 14px;
+    }
+
+    .tools {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .tools h2 {
+        text-align: center;
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    .resume {
+        max-width: 50%;
+        font-size: 100px;
+        padding: 10px 50px;
+        margin: auto;
+    }
+
+    .dictionary {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+
+    .ask h2 {
+        font-size: 25px;
+    }
+
+    .ask h1 {
+        font-size: 30px;
+    }
+
+    .emailButton {
+        margin: auto;
+        padding: 0;
+        font-size: 14px !important;
+    }
+
+
+}

@@ -1,6 +1,7 @@
 import React from 'react'
 // import Guts from "./body/components/Guts";
 import "./styles/footer.css"
+import "./styles/footerRes.css"
 
 import y from "./body/media/y.jpg";
 import git from './media/git.svg'
@@ -18,12 +19,6 @@ const Footer = () => {
         <div className="twitter" id='soc'><a href="https://twitter.com/shubh_shahu?t=1tmTtZA-bEDMHU2KaPz8Qw&s=09" target="blank"><img src={twitter} alt="" /></a></div>
         <div className="insta" id='soc'><a href="https://instagram.com/retr0lastknight?igshid=ZDdkNTZiNTM=" target="blank"><img src={insta} alt="" /></a></div>
       </div>
-      <footer>
-        {/* <div className="copyright">Copyrighted &#169; 2023</div> */}
-      
-      </footer>
-      
-        
     </div>
     
   )

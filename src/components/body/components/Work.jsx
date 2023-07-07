@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles/work.css";
+import "./styles/skillsRes.css";
 import Entry from "./Entry";
 import baroqueWorks from "./baroqueWorks";
 
@@ -14,9 +15,9 @@ function createEntry(piece) {
     />
   )
 }
-function copyText() {
-  navigator.clipboard.writeText("R3tr0LastKnight@gmail.com");
-}
+// function copyText() {
+//   navigator.clipboard.writeText("R3tr0LastKnight@gmail.com");
+// }
 
 const Work = () => {
   return (
@@ -28,11 +29,11 @@ const Work = () => {
       </div>
       <div className="contact" id="contact">
         <div className="ask">
-          <h2>Got a project?</h2>
+          <h1>Got a project?</h1>
           <h2>Big or Small Hit me up</h2>
         </div>
-        <div className="emailButton" onClick={copyText()}>
-          <a href="mailto:shubh14shahu@gmail.com" >R3tr0LastKnight@gmail.com</a>
+        <div className="emailButton" >
+          <a id="emilID" href="mailto:shubh14shahu@gmail.com" >R3tr0LastKnight@gmail.com</a>
         </div>
       </div>
     </div>
@@ -40,3 +41,4 @@ const Work = () => {
 };
 
 export default Work;
+// onClick={copyText()}

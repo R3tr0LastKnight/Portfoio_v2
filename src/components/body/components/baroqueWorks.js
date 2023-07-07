@@ -13,7 +13,7 @@ const baroqueWorks = [
     img: epic,
     name: "Epic Games",
     disc:
-      "This is a replica of The EPIC GAMES website made with pure HTML CSS and JavaScript. It includes game listings and other information.",
+      "This is a replica of The epic games website made with pure html css and javascript. It includes game listings and other information.",
     link: "https://r3tr0lastknight.github.io/EPIC-GAMES-CLONE/"
   },
   {
@@ -21,7 +21,7 @@ const baroqueWorks = [
     img: fim,
     name: "Fim Home Page",
     disc:
-      "FIM is a Tution Coatching institute for preperation of JEE and NEET. This Page illustrates the landing page for a coatching institue. ",
+      "fim is a Tution Coatching institute for preperation of jee and net. This Page illustrates the landing page for a coatching institue. ",
     link: "https://r3tr0lastknight.github.io/FIM-homepage/"
   },
   {
@@ -29,7 +29,7 @@ const baroqueWorks = [
     img: red,
     name: "Red Hammer",
     disc:
-      "Redhammer is a specialized squad of Team RAINBOW. Led by Jordan THERMITE Trace, the squad was established by Harry SIX Pandey following a restructuring of Rainbow.",
+      "Redhammer is a specialized squad of Team rainbow. Led by Jordan thermite Trace, the squad was established by Harry six Pandey following a restructuring of Rainbow.",
     link: "https://r3tr0lastknight.github.io/RedHammer/"
   }
   ,
@@ -46,7 +46,7 @@ const baroqueWorks = [
     img: task1,
     name: "Taskmaster v1",
     disc:
-      "This is the First itteration of the TASKMASTER web-app , it stores the tasks that you need to take care of and can also sort the tasks.",
+      "This is the First itteration of the taskmaster web-app , it stores the tasks that you need to take care of and can also sort the tasks.",
     link: "https://r3tr0lastknight.github.io/TaskMaster_v1/"
   },
   {
@@ -54,7 +54,7 @@ const baroqueWorks = [
     img: task2,
     name: "Taskmaster v2",
     disc:
-      "This is the Second itteration of the TASKMASTER web-app , made completely in REACT. The visuals have been overhauled from v1.",
+      "This is the Second itteration of the taskmaster web-app , made completely in react. The visuals have been overhauled from v1.",
     link: "https://r3tr0lastknight.github.io/TaskMaster_v2/"
   },
   {
@@ -70,7 +70,7 @@ const baroqueWorks = [
     img: temp,
     name: "Temps",
     disc:
-      "Here lies a web-app meant for conversion of temprature from 3 states i.e degree kelvin & Fahrenheit",
+      "Here lies a web-app meant for conversion of temprature from 3 states i.e degree kelvin & fahrenheit.",
     link: "https://r3tr0lastknight.github.io/TempConverter-TEMPS/"
   }
   

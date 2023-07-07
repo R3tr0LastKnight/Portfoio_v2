@@ -1,0 +1,22 @@
+@media (max-width: 600px) {
+    .footer {
+        background-size: contain;
+
+    }
+
+    .socials {
+        display: flex;
+        /* margin-left: 0; */
+    }
+
+    #soc img {
+        width: 50%;
+        height: auto;
+        cursor: pointer;
+    }
+
+    #soc {
+        width: 15%;
+
+    }
+}

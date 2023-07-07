@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles/body.css";
+import "./styles/bodyRes.css";
 import Guts from "./components/Guts";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
