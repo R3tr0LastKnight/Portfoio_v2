@@ -94,7 +94,7 @@ const Skills = () => {
               })}
             </ul>
           </div>
-          <a href="https://drive.google.com/file/d/1BunyehKm2TRkWr2LHF8M2w8VMyZq8tEb/view?usp=sharing" target="blank" >
+          <a href="https://drive.google.com/file/d/1EoEhgo0i3QEkIjjOeTso20v-beW0XxVO/view?usp=sharing" target="blank" >
             <h2 className="resume"  >RESUME</h2>
             </a>
         </div>

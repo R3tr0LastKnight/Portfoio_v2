@@ -33,7 +33,7 @@ const Work = () => {
           <h2>Big or Small Hit me up</h2>
         </div>
         <div className="emailButton" >
-          <a id="emilID" href="mailto:shubh14shahu@gmail.com" >R3tr0LastKnight@gmail.com</a>
+          <a id="emilID" href="mailto:r3tr0LastKnight@gmail.com" >R3tr0LastKnight@gmail.com</a>
         </div>
       </div>
     </div>
