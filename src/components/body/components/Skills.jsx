@@ -8,10 +8,13 @@ const Skills = () => {
     "CSS",
     "Bootstrap",
     "JavaScript",
-    "MongoDB",
+    "EJS",
+    "NodeJS",
     "Express",
     "React",
-    "NodeJS",
+    "Redux",
+    "MongoDB",
+    "Mongoose",
   ];
   let hobby = [
     "WORKOUT",
@@ -25,10 +28,7 @@ const Skills = () => {
   return (
     <div class="body">
       <div id="aboutme"></div>
-      <div
-        class="me"
-        id="me"
-      >
+      <div class="me" id="me">
         <h1>Shubh Shahu</h1>
         <h2>Full Stack Developer</h2>
         <p>
@@ -40,11 +40,11 @@ const Skills = () => {
           satisfied with the solutions I provide.
         </p>
         <p>
-          Overall, I will prove to be dedicated and innovative web developer
-          with a passion for creating dynamic and engaging web applications.
-          With my expertise in multiple technologies and frameworks, I am
-          well-equipped to tackle any challenge that comes my way and deliver
-          solutions that exceed expectations.
+          I will prove to be dedicated and innovative web developer with a
+          passion for creating dynamic and engaging web applications. With my
+          expertise in multiple technologies, I am well-equipped to tackle any
+          challenge that comes my way and deliver solutions that exceed
+          expectations.
         </p>
       </div>
       <div class="tools">
@@ -54,19 +54,17 @@ const Skills = () => {
             <ul className="ulSkills">
               {skill.map((sub) => {
                 return (
-                  <a target="blank" href= {`https://en.wikipedia.org/wiki/${sub}`} >
+                  <a
+                    target="blank"
+                    href={`https://en.wikipedia.org/wiki/${sub}`}
+                  >
                     <li>
-                    {sub}{" "}
-                    <div className="skillImg">
-                      <img
-                        className=""
-                        src={imgs[sub]}
-                        alt=""
-                      />
-                    </div>
+                      {sub}{" "}
+                      <div className="skillImg">
+                        <img className="" src={imgs[sub]} alt="" />
+                      </div>
                     </li>
                   </a>
-                  
                 );
               })}
             </ul>
@@ -82,21 +80,20 @@ const Skills = () => {
                   <li>
                     {sub}{" "}
                     <div className="hobbImg">
-                      <img
-                        className=""
-                        src={imgs[sub]}
-                        alt=""
-                      />
+                      <img className="" src={imgs[sub]} alt="" />
                     </div>
-                    </li>
-                    // </a>
+                  </li>
+                  // </a>
                 );
               })}
             </ul>
           </div>
-          <a href="https://drive.google.com/file/d/1EoEhgo0i3QEkIjjOeTso20v-beW0XxVO/view?usp=sharing" target="blank" >
-            <h2 className="resume"  >RESUME</h2>
-            </a>
+          <a
+            href="https://drive.google.com/file/d/1mhJob8CAvMfdvReaPWC1nTPK78ZwXinv/view?usp=sharing"
+            target="blank"
+          >
+            <h2 className="resume">RESUME</h2>
+          </a>
         </div>
       </div>
     </div>

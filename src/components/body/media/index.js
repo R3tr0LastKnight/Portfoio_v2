@@ -6,6 +6,9 @@ import JavaScript from "./JavaScript.svg";
 import NodeJS from "./NodeJS.svg";
 import React from "./React.svg";
 import MongoDB from "./MongoDB.png";
+import EJS from "./EJS.png";
+import Mongoose from "./Mongoose.png";
+import Redux from "./Redux.png";
 
 import ESPORTS from "./E-SPORTS.png";
 import EXPLORATION from "./EXPLORATION.png";
@@ -23,6 +26,9 @@ const imgs = {
   NodeJS,
   React,
   MongoDB,
+  EJS,
+  Redux,
+  Mongoose,
   ESPORTS,
   EXPLORATION,
   MUSIC,

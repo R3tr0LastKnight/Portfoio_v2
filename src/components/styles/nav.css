@@ -1,24 +1,25 @@
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 100px;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
 }
-nav li{
-    display: inline;
-    float: right;
-    margin: 15px;
-    font-size: 20px;
-    font-family: 'Press Start 2P', cursive;
+nav li {
+  display: inline;
+  float: right;
+  margin: 15px;
+  font-size: 20px;
+  font-family: "Press Start 2P", cursive;
 }
-nav ul{
-    float: right;
-    margin-right: 5%;
+nav li:hover {
+  border-bottom: dashed white;
 }
-nav h1{
-    font-size: 35px;
-    margin-left: 2%;
-    font-family: 'Major Mono Display', monospace;
+nav ul {
+  float: right;
+  margin-right: 5%;
 }
-
-
+nav h1 {
+  font-size: 35px;
+  margin-left: 2%;
+  font-family: "Major Mono Display", monospace;
+}
