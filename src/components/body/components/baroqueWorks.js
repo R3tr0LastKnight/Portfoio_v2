@@ -26,7 +26,7 @@ const baroqueWorks = [
     id: 3,
     img: red,
     name: "Factions",
-    disc: "This is a project about military factions which I wanted to make with the use of redux.",
+    disc: "This is a project about military factions of rainbow six. Making this website taught me about redux.",
     link: "https://r3tr0lastknight.github.io/Rainbow-Six-Factions/",
   },
   {
@@ -54,7 +54,7 @@ const baroqueWorks = [
     id: 7,
     img: candy,
     name: "Museum of Candy",
-    disc: "This is a bootstrap project about a website the shocases candies placed in my Museum.",
+    disc: "This is a bootstrap project about a website the shocases candies placed in my Museum made with bootstrap.",
     link: "https://r3tr0lastknight.github.io/Museum-of-Candy/",
   },
   {

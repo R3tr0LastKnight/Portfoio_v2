@@ -39,6 +39,10 @@
     font-size: 30px;
     margin-bottom: 20px;
   }
+  .ulSkills {
+    display: flex;
+    flex-direction: column;
+  }
 
   .resume {
     max-width: 50%;

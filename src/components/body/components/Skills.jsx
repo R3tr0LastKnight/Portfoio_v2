@@ -8,13 +8,13 @@ const Skills = () => {
     "CSS",
     "Bootstrap",
     "JavaScript",
-    "EJS",
     "NodeJS",
     "Express",
     "React",
     "Redux",
     "MongoDB",
     "Mongoose",
+    "EJS",
   ];
   let hobby = [
     "WORKOUT",
@@ -73,7 +73,7 @@ const Skills = () => {
         <div className="hobbiz">
           <div class="skillset">
             <h2>-Hobbies-</h2>
-            <ul className="ulSkills">
+            <ul className="ulHobbies">
               {hobby.map((sub) => {
                 return (
                   // <a target="blank" href= {`https://www.google.com/search?q=${sub}`} >
