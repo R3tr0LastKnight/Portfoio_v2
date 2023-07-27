@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfoio_v2/static/css/main.134ffb45.css",
-    "main.js": "/Portfoio_v2/static/js/main.b4f8a611.js",
+    "main.js": "/Portfoio_v2/static/js/main.b5171d54.js",
     "static/media/epicPre.png": "/Portfoio_v2/static/media/epicPre.ec77f6929b48af16f792.png",
     "static/media/x.jpg": "/Portfoio_v2/static/media/x.4aa5c48f348ff1ecf87d.jpg",
     "static/media/redPre.png": "/Portfoio_v2/static/media/redPre.27a3f71aec979af12c97.png",
@@ -26,10 +26,10 @@
     "static/media/CSS.svg": "/Portfoio_v2/static/media/CSS.3ec320225ef851ed26cf9fd1c6ebaa54.svg",
     "static/media/HTML.svg": "/Portfoio_v2/static/media/HTML.c1bb84e022ca9d76984d4b943bd678fd.svg",
     "main.134ffb45.css.map": "/Portfoio_v2/static/css/main.134ffb45.css.map",
-    "main.b4f8a611.js.map": "/Portfoio_v2/static/js/main.b4f8a611.js.map"
+    "main.b5171d54.js.map": "/Portfoio_v2/static/js/main.b5171d54.js.map"
   },
   "entrypoints": [
     "static/css/main.134ffb45.css",
-    "static/js/main.b4f8a611.js"
+    "static/js/main.b5171d54.js"
   ]
 }
