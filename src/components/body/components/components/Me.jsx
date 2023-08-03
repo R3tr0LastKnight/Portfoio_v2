@@ -7,7 +7,6 @@ const Me = () => {
   const isInView = useInView(ref, { once: true });
 
   const effectControls = useAnimation();
-  n;
 
   useEffect(() => {
     if (isInView) {
