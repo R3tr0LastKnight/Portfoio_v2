@@ -1,0 +1,26 @@
+.me {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+  margin-left: 3%;
+  /* width: 100%; */
+}
+.me h1 {
+  font-size: 40px;
+  font-family: "Press Start 2P", cursive;
+  letter-spacing: 0px;
+}
+.me h2 {
+  font-family: "Press Start 2P", cursive;
+  /* font-family: 'DotGothic16', sans-serif; */
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-top: 5px;
+}
+.me p {
+  margin-top: 30px;
+  width: 90%;
+  line-height: 21px;
+  text-indent: 45px;
+  font-family: "Major Mono Display", monospace;
+}

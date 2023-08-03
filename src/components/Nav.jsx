@@ -10,11 +10,11 @@ const Nav = () => {
         <li>
           <a href="#social">Socials</a>
         </li>
-        <li >
+        <li>
           <a href="#work">work</a>
         </li>
         <li>
-          <a href="#aboutme">About</a>
+          <a href="#aboutMe">About</a>
         </li>
       </ul>
     </nav>

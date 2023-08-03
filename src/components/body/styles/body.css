@@ -4,32 +4,7 @@ html {
 .body {
   display: flex;
 }
-.me {
-  display: flex;
-  flex-direction: column;
-  margin-top: 2%;
-  margin-left: 3%;
-  width: 40%;
-}
-.me h1 {
-  font-size: 40px;
-  font-family: "Press Start 2P", cursive;
-  letter-spacing: 0px;
-}
-.me h2 {
-  font-family: "Press Start 2P", cursive;
-  /* font-family: 'DotGothic16', sans-serif; */
-  font-size: 20px;
-  letter-spacing: 1px;
-  margin-top: 5px;
-}
-.me p {
-  margin-top: 30px;
-  width: 90%;
-  line-height: 21px;
-  text-indent: 45px;
-  font-family: "Major Mono Display", monospace;
-}
+
 .resume {
   margin-top: 1em;
   margin-bottom: 2rem;
@@ -59,13 +34,14 @@ html {
 }
 
 .tools {
-  width: 60%;
+  /* width: 100%; */
   display: flex;
   flex-direction: row;
   margin-top: 20px;
   /* align-items: center; */
   justify-content: space-around;
 }
+
 .tools h2 {
   margin-top: 10%;
   text-align: center;
@@ -77,6 +53,9 @@ html {
   font-family: "DotGothic16", sans-serif;
   letter-spacing: 2px;
 }
+.skillz {
+  width: 50%;
+}
 .hobbiz {
   /* margin-top: 50px; */
   display: flex;
@@ -86,6 +65,8 @@ html {
 .skillset {
   display: flex;
   flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
 }
 .ulSkills {
   margin-top: 10px;
@@ -112,7 +93,10 @@ html {
   float: right;
   /* filter: invert(100%); */
 }
-.hobbImg img {
+.ulHobbies {
+  cursor: default;
+}
+.ulHobbies img {
   filter: invert(100%);
   width: 25px;
   height: auto;
@@ -123,9 +107,15 @@ html {
   width: 100%;
   height: auto;
 }
-#aboutme {
+#aboutMe {
   position: relative;
   left: 0px;
   top: -90px;
   /* Adjust this */
+}
+
+.skillElement:hover {
+  border-bottom: #fff dashed 0.5px;
+  border-radius: 5%;
+  padding-bottom: 5px;
 }
