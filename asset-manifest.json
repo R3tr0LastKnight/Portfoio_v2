@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfoio_v2/static/css/main.134ffb45.css",
-    "main.js": "/Portfoio_v2/static/js/main.b5171d54.js",
+    "main.css": "/Portfoio_v2/static/css/main.66bbe8d9.css",
+    "main.js": "/Portfoio_v2/static/js/main.80555e8c.js",
     "static/media/epicPre.png": "/Portfoio_v2/static/media/epicPre.ec77f6929b48af16f792.png",
     "static/media/x.jpg": "/Portfoio_v2/static/media/x.4aa5c48f348ff1ecf87d.jpg",
     "static/media/redPre.png": "/Portfoio_v2/static/media/redPre.27a3f71aec979af12c97.png",
@@ -9,10 +9,8 @@
     "static/media/y.jpg": "/Portfoio_v2/static/media/y.9fd238702e0ae9f67b3b.jpg",
     "static/media/candyPre.png": "/Portfoio_v2/static/media/candyPre.ec581493b26f6b3c405a.png",
     "static/media/fimPre.png": "/Portfoio_v2/static/media/fimPre.79ddfd0bae0cab8e011b.png",
+    "static/media/arcadePre.png": "/Portfoio_v2/static/media/arcadePre.224c105c349d6761621d.png",
     "static/media/task2Pre.png": "/Portfoio_v2/static/media/task2Pre.a920f2ae09772e9eab87.png",
-    "static/media/task1Pre.png": "/Portfoio_v2/static/media/task1Pre.e80242cd0709b24c64af.png",
-    "static/media/calciPre.png": "/Portfoio_v2/static/media/calciPre.706d7b4ad6942d49e171.png",
-    "static/media/tempsPre.png": "/Portfoio_v2/static/media/tempsPre.b370f652f33e533ecb19.png",
     "static/media/NodeJS.svg": "/Portfoio_v2/static/media/NodeJS.b7d2308b16bd82b67987d0d1682f8e6b.svg",
     "static/media/React.svg": "/Portfoio_v2/static/media/React.a060cbe85e50deda1d61452cee9de5b2.svg",
     "static/media/twitter.svg": "/Portfoio_v2/static/media/twitter.ef9f65bfc6d28d82b921fafd607e411e.svg",
@@ -25,11 +23,11 @@
     "static/media/linkedIn.svg": "/Portfoio_v2/static/media/linkedIn.55fb388c4c9df6986ca32fe64a60414a.svg",
     "static/media/CSS.svg": "/Portfoio_v2/static/media/CSS.3ec320225ef851ed26cf9fd1c6ebaa54.svg",
     "static/media/HTML.svg": "/Portfoio_v2/static/media/HTML.c1bb84e022ca9d76984d4b943bd678fd.svg",
-    "main.134ffb45.css.map": "/Portfoio_v2/static/css/main.134ffb45.css.map",
-    "main.b5171d54.js.map": "/Portfoio_v2/static/js/main.b5171d54.js.map"
+    "main.66bbe8d9.css.map": "/Portfoio_v2/static/css/main.66bbe8d9.css.map",
+    "main.80555e8c.js.map": "/Portfoio_v2/static/js/main.80555e8c.js.map"
   },
   "entrypoints": [
-    "static/css/main.134ffb45.css",
-    "static/js/main.b5171d54.js"
+    "static/css/main.66bbe8d9.css",
+    "static/js/main.80555e8c.js"
   ]
 }
