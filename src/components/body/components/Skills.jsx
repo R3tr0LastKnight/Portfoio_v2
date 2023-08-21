@@ -16,8 +16,8 @@ const Skills = () => {
 
       <div class="tools">
         <div className="skillz">
-          <h2>-Skills-</h2>
           <div class="skillset">
+            <h2>-Skills-</h2>
             <ul className="ulSkills">{skillIssue.map(SkillEntry)}</ul>
           </div>
         </div>
@@ -26,12 +26,14 @@ const Skills = () => {
             <h2>-Hobbies-</h2>
             <ul className="ulHobbies">{hobbyIssue.map(SkillEntry)}</ul>
           </div>
-          <a
-            href="https://drive.google.com/file/d/1AvcgKuBS_5zmRtQc1IJZU3uCOzrn04LQ/view?usp=sharing"
-            target="blank"
-          >
-            <h2 className="resume">RESUME</h2>
-          </a>
+          <div className="rightRes">
+            <a
+              href="https://drive.google.com/file/d/1GtO6uwRMYjfVFKJOwhk4ZMGiZDWXshof/view?usp=sharing"
+              target="blank"
+            >
+              <h2 className="resume">RESUME</h2>
+            </a>
+          </div>
         </div>
       </div>
     </div>

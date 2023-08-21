@@ -6,7 +6,7 @@ const SkillEntry = (props) => {
     <div>
       <a target="blank" href={props.link}>
         <li className="skillElement">
-          {props.name}{" "}
+          <div className="skillName">{props.name}</div>
           <div className="skillImg">
             <img className="" src={props.img} alt="" />
           </div>

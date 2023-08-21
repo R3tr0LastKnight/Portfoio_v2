@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import "./me.css";
+import "../styles/skillsRes.css";
 import { motion, useInView, useAnimation } from "framer-motion";
 
 const Me = () => {
@@ -15,7 +16,7 @@ const Me = () => {
   }, [isInView, effectControls]);
 
   return (
-    <div ref={ref}>
+    <div ref={ref} className="myInfo">
       <motion.div
         class="me"
         id="me"
@@ -52,6 +53,14 @@ const Me = () => {
           expectations.
         </p>
       </motion.div>
+      <div className="leftRes">
+        <a
+          href="https://drive.google.com/file/d/1GtO6uwRMYjfVFKJOwhk4ZMGiZDWXshof/view?usp=sharing"
+          target="blank"
+        >
+          <h3 className="resume">RESUME</h3>
+        </a>
+      </div>
     </div>
   );
 };

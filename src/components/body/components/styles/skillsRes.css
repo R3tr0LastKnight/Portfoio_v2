@@ -47,7 +47,7 @@
     width: 100%;
   }
   .resume {
-    max-width: 50%;
+    max-width: 100%;
     font-size: 50px;
     padding: 10px 50px;
     margin: auto;
@@ -69,5 +69,21 @@
     margin: auto;
     padding: 0;
     font-size: 14px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .body {
+    flex-direction: column;
+  }
+  .rightRes {
+    display: none;
+  }
+}
+@media (max-width: 1000px) {
+  .tools {
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
   }
 }

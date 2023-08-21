@@ -43,7 +43,8 @@ html {
 }
 
 .tools h2 {
-  margin-top: 10%;
+  /* margin-top: 10%; */
+  margin-bottom: 5%;
   text-align: center;
   font-family: "Press Start 2P", cursive;
 }
@@ -78,6 +79,7 @@ html {
 .ulHobbies {
   margin-top: 10px;
   padding: 0px 50px;
+  gap: 5px;
   display: flex;
   flex-direction: column;
 }
@@ -117,5 +119,14 @@ html {
 .skillElement:hover {
   border-bottom: #fff dashed 0.5px;
   border-radius: 5%;
-  padding-bottom: 5px;
+  /* padding-bottom: 5px; */
+}
+
+.skillElement {
+  gap: 28px;
+}
+
+.skillName {
+  padding-right: 10px;
+  white-space: nowrap;
 }

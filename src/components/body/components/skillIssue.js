@@ -10,6 +10,7 @@ import MongoDB from "../media/MongoDB.png";
 import EJS from "../media/EJS.png";
 import Mongoose from "../media/Mongoose.png";
 import Redux from "../media/Redux.png";
+import Tailwind from "../media/tailwind.png";
 
 const skillIssue = [
   {
@@ -77,6 +78,12 @@ const skillIssue = [
     name: "EJS",
     link: "https://ejs.co/",
     img: EJS,
+  },
+  {
+    id: 12,
+    name: "Tailwind CSS",
+    link: "https://tailwindcss.com",
+    img: Tailwind,
   },
 ];
 
