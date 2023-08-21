@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfoio_v2/static/css/main.66bbe8d9.css",
-    "main.js": "/Portfoio_v2/static/js/main.80555e8c.js",
+    "main.css": "/Portfoio_v2/static/css/main.613dc72c.css",
+    "main.js": "/Portfoio_v2/static/js/main.4f177e8a.js",
     "static/media/epicPre.png": "/Portfoio_v2/static/media/epicPre.ec77f6929b48af16f792.png",
     "static/media/x.jpg": "/Portfoio_v2/static/media/x.4aa5c48f348ff1ecf87d.jpg",
     "static/media/redPre.png": "/Portfoio_v2/static/media/redPre.27a3f71aec979af12c97.png",
@@ -23,11 +23,11 @@
     "static/media/linkedIn.svg": "/Portfoio_v2/static/media/linkedIn.55fb388c4c9df6986ca32fe64a60414a.svg",
     "static/media/CSS.svg": "/Portfoio_v2/static/media/CSS.3ec320225ef851ed26cf9fd1c6ebaa54.svg",
     "static/media/HTML.svg": "/Portfoio_v2/static/media/HTML.c1bb84e022ca9d76984d4b943bd678fd.svg",
-    "main.66bbe8d9.css.map": "/Portfoio_v2/static/css/main.66bbe8d9.css.map",
-    "main.80555e8c.js.map": "/Portfoio_v2/static/js/main.80555e8c.js.map"
+    "main.613dc72c.css.map": "/Portfoio_v2/static/css/main.613dc72c.css.map",
+    "main.4f177e8a.js.map": "/Portfoio_v2/static/js/main.4f177e8a.js.map"
   },
   "entrypoints": [
-    "static/css/main.66bbe8d9.css",
-    "static/js/main.80555e8c.js"
+    "static/css/main.613dc72c.css",
+    "static/js/main.4f177e8a.js"
   ]
 }
