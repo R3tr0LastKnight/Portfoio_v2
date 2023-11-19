@@ -4,8 +4,16 @@ import red from "./media/redPre.png";
 import task2 from "./media/task2Pre.png";
 import candy from "./media/candyPre.png";
 import arc from "./media/arcadePre.png";
+import ws from "./media/wsPre.png";
 
 const baroqueWorks = [
+  {
+    id: 7,
+    img: ws,
+    name: "World Seeker",
+    disc: "This is a full stack booking website made in mern stack. Here we can login in to apppoint our own holiday destination and book some that others may post.",
+    link: "https://world-seeker.vercel.app/",
+  },
   {
     id: 3,
     img: red,
