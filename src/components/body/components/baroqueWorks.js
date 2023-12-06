@@ -3,8 +3,12 @@ import fim from "./media/fimPre.png";
 import red from "./media/redPre.png";
 import task2 from "./media/task2Pre.png";
 import candy from "./media/candyPre.png";
-import arc from "./media/arcadePre.png";
+// import arc from "./media/arcadePre.png";
 import ws from "./media/wsPre.png";
+import ttt from "./media/tttPre.png";
+import task1 from "./media/task1Pre.png";
+import temp from "./media/tempsPre.png";
+import calci from "./media/calciPre.png";
 
 const baroqueWorks = [
   {
@@ -29,6 +33,21 @@ const baroqueWorks = [
     link: "https://r3tr0lastknight.github.io/Taskmaster_v2/",
   },
   {
+    id: 8,
+    img: ttt,
+    name: "Tic Tac Toe",
+    disc: "This is a tic tac toe game which can be played on any browser at any time with a custom built ai which has gone rogue. ",
+    link: "https://r3tr0lastknight.github.io/TIC-TAC-TOE/",
+  },
+
+  {
+    id: 9,
+    img: calci,
+    name: "Calcuator",
+    disc: "Here is a custom calculator which perform every calcuation with enhanced precision with just a mere click.",
+    link: "https://r3tr0lastknight.github.io/Simple-Calculator/",
+  },
+  {
     id: 4,
     img: candy,
     name: "Museum of Candy",
@@ -37,19 +56,26 @@ const baroqueWorks = [
   },
   {
     id: 5,
-    img: arc,
-    name: "Arcade",
-    disc: "This is a cluster of web-apps that i built with plain html, css and javascript. put together with react with seasoning of framer motion",
-    link: "https://r3tr0lastknight.github.io/Arcade/",
+    img: task1,
+    name: "Taskmaster v1",
+    disc: "This is the first itteration of taskmaster which was made purely html, css & javascript.",
+    link: "https://r3tr0lastknight.github.io/TaskMaster_v1/",
   },
-
   {
     id: 2,
     img: fim,
-    name: "Tution Home Page",
+    name: "EliteBuild",
     disc: "This is a website for a coatching institute that conducts preperation of jee and neet. crafted and made fully responsive with pure html, css and javascript.",
     link: "https://r3tr0lastknight.github.io/FIM-homepage/",
   },
+  {
+    id: 10,
+    img: temp,
+    name: "Temps",
+    disc: "This is a temprature conversion web-app which tranceduces temprature value between celsius, fahrenheit and kelvin",
+    link: "https://r3tr0lastknight.github.io/TempConverter-TEMPS/",
+  },
+
   {
     id: 1,
     img: epic,
