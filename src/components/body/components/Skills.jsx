@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./styles/skillsRes.css";
 import SkillEntry from "./components/SkillEntry";
 import skillIssue from "./skillIssue";

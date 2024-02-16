@@ -57,6 +57,13 @@ html {
 .skillz {
   width: 50%;
 }
+@media (max-width: 768px) {
+  .skillz {
+    width: 100%;
+    margin: 50px 0;
+  }
+}
+
 .hobbiz {
   /* margin-top: 50px; */
   display: flex;

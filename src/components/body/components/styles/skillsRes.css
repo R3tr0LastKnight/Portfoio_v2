@@ -42,7 +42,9 @@
   .ulSkills {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
   }
+
   .skillz {
     width: 100%;
   }
