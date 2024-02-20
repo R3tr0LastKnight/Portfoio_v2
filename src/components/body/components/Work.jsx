@@ -25,7 +25,7 @@ const Work = () => {
       <div id="work"></div>
       <h2 className="workTitle">WORK</h2>
       <div className="setPieces">
-        <dl className="dictionary">{baroqueWorks.map(createEntry)}</dl>
+        <dl className="dictionary ">{baroqueWorks.map(createEntry)}</dl>
       </div>
       <div className="contact" id="contact">
         <div className="ask">

@@ -23,11 +23,14 @@ const Nav = () => {
       }
     };
 
-    typeText();
+    // Set timeout to start typing after 2 seconds
+    const timeoutId = setTimeout(() => {
+      typeText();
+    }, 500);
 
     // Cleanup function to clear timeout if component unmounts
     return () => {
-      clearTimeout();
+      clearTimeout(timeoutId);
     };
   }, [text]);
 
