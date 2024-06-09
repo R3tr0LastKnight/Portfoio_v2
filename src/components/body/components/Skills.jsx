@@ -8,20 +8,21 @@ import "../styles/body.css";
 
 const Skills = () => {
   return (
-    <div class="body">
-      <div>
-        <div id="aboutMe" />
+    <div className="body relative w-full flex py-8">
+      <div className="w-[60%]">
+        <div id="aboutMe" className="" />
         <Me />
       </div>
 
-      <div class="tools">
-        <div className="skillz">
-          <div class="skillset">
-            <h2>-Skills-</h2>
-            <ul className="ulSkills">{skillIssue.map(SkillEntry)}</ul>
+      <div className="w-[40%] tools">
+        <div>
+          <h2 className="w-full whitespace-nowrap">-Skills-</h2>
+          <div className="grid  grid-cols-2 text-sm  gap-x-16">
+            {skillIssue.map(SkillEntry)}
           </div>
         </div>
-        <div className="hobbiz">
+
+        {/* <div className="hobbiz">
           <div class="skillset">
             <h2>-Hobbies-</h2>
             <ul className="ulHobbies">{hobbyIssue.map(SkillEntry)}</ul>
@@ -34,7 +35,7 @@ const Skills = () => {
               <h2 className="resume">RESUME</h2>
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

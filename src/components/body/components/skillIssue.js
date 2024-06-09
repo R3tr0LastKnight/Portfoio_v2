@@ -14,22 +14,10 @@ import Tailwind from "../media/tailwind.png";
 
 const skillIssue = [
   {
-    id: 1,
-    name: "HTML",
-    link: "https://developer.mozilla.org/en-US/docs/Web/HTML",
-    img: HTML,
-  },
-  {
-    id: 2,
-    name: "CSS",
-    link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
-    img: CSS,
-  },
-  {
-    id: 3,
-    name: "Bootstrap",
-    link: "https://getbootstrap.com/docs/5.3/getting-started/introduction/",
-    img: Bootstrap,
+    id: 7,
+    name: "React",
+    link: "https://react.dev/",
+    img: React,
   },
   {
     id: 4,
@@ -44,16 +32,16 @@ const skillIssue = [
     img: NodeJS,
   },
   {
-    id: 6,
-    name: "Express",
-    link: "https://expressjs.com/",
-    img: Express,
+    id: 9,
+    name: "MongoDB",
+    link: "https://www.mongodb.com/docs/",
+    img: MongoDB,
   },
   {
-    id: 7,
-    name: "React",
-    link: "https://react.dev/",
-    img: React,
+    id: 12,
+    name: "Tailwind CSS",
+    link: "https://tailwindcss.com",
+    img: Tailwind,
   },
   {
     id: 8,
@@ -62,11 +50,30 @@ const skillIssue = [
     img: Redux,
   },
   {
-    id: 9,
-    name: "MongoDB",
-    link: "https://www.mongodb.com/docs/",
-    img: MongoDB,
+    id: 6,
+    name: "Express",
+    link: "https://expressjs.com/",
+    img: Express,
   },
+  {
+    id: 1,
+    name: "HTML",
+    link: "https://developer.mozilla.org/en-US/docs/Web/HTML",
+    img: HTML,
+  },
+  {
+    id: 2,
+    name: "CSS",
+    link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+    img: CSS,
+  },
+  // {
+  //   id: 3,
+  //   name: "Bootstrap",
+  //   link: "https://getbootstrap.com/docs/5.3/getting-started/introduction/",
+  //   img: Bootstrap,
+  // },
+
   {
     id: 10,
     name: "Mongoose",
@@ -78,12 +85,6 @@ const skillIssue = [
     name: "EJS",
     link: "https://ejs.co/",
     img: EJS,
-  },
-  {
-    id: 12,
-    name: "Tailwind CSS",
-    link: "https://tailwindcss.com",
-    img: Tailwind,
   },
 ];
 

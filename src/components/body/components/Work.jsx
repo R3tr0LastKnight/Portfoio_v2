@@ -21,8 +21,17 @@ function createEntry(piece) {
 // }
 
 const Work = () => {
-  const TEXTS = ["Creations", "Tour De Force", "Magnum Opus"];
-  // const TEXTS = ["Work", "Arbeiten", "仕事", "Работа"];
+  const TEXTS = ["Projects", "Tour De Force", "Magnum Opus", "Work"];
+  // const TEXTS = ["Works", "Arbeiten", "仕事", "Работа"];
+  // const TEXTS = [
+  //   "Projects",
+  //   "プロジェクト",
+  //   "Progetti",
+  //   "Проекты",
+  //   "Proyectos",
+  //   "परियोजनाओं",
+  //   "Projekte",
+  // ];
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
@@ -34,8 +43,8 @@ const Work = () => {
   }, []);
 
   return (
-    <div className="wonderOfYou">
-      <div className="relative flex flex-col items-center justify-center bottom-36 px-8">
+    <div className="wonderOfYou flex flex-col">
+      <div className="relative flex flex-col items-center justify-center top-48 px-8">
         <div id="work"></div>
         <h2 className="workTitle  px-6 !text-black min-w-[25rem] justify-center ">
           {/* WORK
@@ -43,7 +52,7 @@ const Work = () => {
           <TextTransition
             className="flex justify-center text-black"
             style={{ color: "#000", textAlign: "center" }}
-            springConfig={presets.wobbly}
+            // springConfig={presets.wobbly}
           >
             {TEXTS[index % TEXTS.length]}
           </TextTransition>
@@ -52,7 +61,7 @@ const Work = () => {
           <dl className="dictionary  ">{baroqueWorks.map(createEntry)}</dl>
         </div>
       </div>
-      <div className="contact relative bottom-44" id="contact">
+      <div className="contact  mt-40" id="contact">
         <div className="ask">
           <h1>Got a project?</h1>
           <h2>Big or Small Hit me up</h2>

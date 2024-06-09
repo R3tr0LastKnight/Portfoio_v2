@@ -74,14 +74,15 @@ html {
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
-  align-items: center;
+  /* align-items: center; */
 }
 .ulSkills {
-  margin-top: 10px;
-  padding: 0px 50px;
+  /* margin-top: 10px; */
+  /* padding: 0px 50px; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 5px;
+  /* gap: 10px; */
+  column-gap: 55px;
 }
 .ulHobbies {
   margin-top: 10px;
@@ -90,15 +91,15 @@ html {
   display: flex;
   flex-direction: column;
 }
-.skillset li {
+/* .skillset li {
   display: flex;
   justify-content: space-between;
-}
+} */
 .skillImg img {
   width: 30px;
   height: auto;
   margin: 1px;
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
   float: right;
   /* filter: invert(100%); */
 }
@@ -123,11 +124,11 @@ html {
   /* Adjust this */
 }
 
-.skillElement:hover {
+/* .skillElement:hover {
   border-bottom: #fff dashed 0.5px;
   border-radius: 5%;
-  /* padding-bottom: 5px; */
-}
+
+} */
 
 .skillElement {
   gap: 28px;

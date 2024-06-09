@@ -6,7 +6,13 @@ import ScrambleAnimation from "react-scrambled-text/dist/src/ScrambleAnimation";
 
 const Nav = () => {
   const [displayText, setDisplayText] = useState("");
+  const [nav, setNav] = useState(false);
 
+  const changeNav = () => {
+    window.scrollY >= 0 ? setNav(true) : setNav(false);
+    window.scrollY <= 200 ? setNav(false) : setNav(true);
+  };
+  window.addEventListener("scroll", changeNav);
   const text = "R3tr0";
 
   useEffect(() => {
@@ -37,24 +43,33 @@ const Nav = () => {
   }, [text]);
 
   return (
-    <nav className="text-white">
-      <ScrambleAnimation
-        texts={["R3tr0"]}
-        speed={100}
-        pauseDuration={2000}
-        start={true}
-        className="text-white bg-white h-full flex items-center"
-      />
+    <nav
+      className={`text-white fixed top-0 flex justify-between bg-black w-full z-50 ${
+        nav ? "opacity-100" : "opacity-0"
+      }`}
+    >
+      <div
+        className="text-white bg-white py-2 !h-full flex items-center  px-8 cursor-pointer"
+        onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+      >
+        <ScrambleAnimation
+          texts={["R3tr0"]}
+          speed={100}
+          pauseDuration={2000}
+          start={true}
+          className=""
+        />
+      </div>
       {/* <h1>{displayText}</h1> */}
-      <ul>
+      <ul className="flex gap-4">
         <li>
-          <a href="#social">Socials</a>
+          <a href="#aboutMe">About</a>
         </li>
         <li>
           <a href="#work">work</a>
         </li>
         <li>
-          <a href="#aboutMe">About</a>
+          <a href="#social">Socials</a>
         </li>
       </ul>
     </nav>

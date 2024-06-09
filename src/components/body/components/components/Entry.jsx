@@ -5,15 +5,15 @@ import StaggerText from "react-stagger-text";
 
 function Entry(props) {
   return (
-    <div className="term ">
+    <div className="term transition-all group">
       <a
-        className="anchorP min-h-[32rem] gap-8 relative"
+        className="anchorP min-h-[18rem] gap-8 relative"
         target="blank"
         href={props.link}
       >
         <dt>
           <span
-            className="preview w-full min-h-[20rem]"
+            className="preview w-full min-h-[20rem] "
             role="img"
             aria-label="img"
           >
@@ -21,13 +21,13 @@ function Entry(props) {
           </span>
         </dt>
         <div className=" bottom-20 px-8">
-          <span className="title">{props.name}</span>
+          <span className="title relative  ">{props.name}</span>
 
-          <dd className="link text-justify">
+          {/* <dd className="link text-justify">
             <StaggerText staggerType="word" staggerDuration={0.25}>
               {props.desc}
             </StaggerText>
-          </dd>
+          </dd> */}
         </div>
       </a>
     </div>
