@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./styles/nav.css";
 import "./styles/navRes.css";
+import TextScramble from "@dilrukr/react-text-scramble";
+import ScrambleAnimation from "react-scrambled-text/dist/src/ScrambleAnimation";
 
 const Nav = () => {
   const [displayText, setDisplayText] = useState("");
@@ -35,8 +37,15 @@ const Nav = () => {
   }, [text]);
 
   return (
-    <nav>
-      <h1>{displayText}</h1>
+    <nav className="text-white">
+      <ScrambleAnimation
+        texts={["R3tr0"]}
+        speed={100}
+        pauseDuration={2000}
+        start={true}
+        className="text-white bg-white h-full flex items-center"
+      />
+      {/* <h1>{displayText}</h1> */}
       <ul>
         <li>
           <a href="#social">Socials</a>

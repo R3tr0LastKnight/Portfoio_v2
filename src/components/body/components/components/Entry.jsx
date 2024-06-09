@@ -1,18 +1,34 @@
 import React from "react";
 import "./entry.css";
 import "../styles/skillsRes.css";
+import StaggerText from "react-stagger-text";
 
 function Entry(props) {
   return (
-    <div className="term">
-      <a className="anchorP" target="blank" href={props.link}>
+    <div className="term ">
+      <a
+        className="anchorP min-h-[32rem] gap-8 relative"
+        target="blank"
+        href={props.link}
+      >
         <dt>
-          <span className="preview" role="img" aria-label="img">
-            <img src={props.img} alt="" />
+          <span
+            className="preview w-full min-h-[20rem]"
+            role="img"
+            aria-label="img"
+          >
+            <img className="h-full w-full" src={props.img} alt="" />
           </span>
         </dt>
-        <span className="title">{props.name}</span>
-        <dd className="link">{props.desc}</dd>
+        <div className=" bottom-20 px-8">
+          <span className="title">{props.name}</span>
+
+          <dd className="link text-justify">
+            <StaggerText staggerType="word" staggerDuration={0.25}>
+              {props.desc}
+            </StaggerText>
+          </dd>
+        </div>
       </a>
     </div>
   );

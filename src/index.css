@@ -20,7 +20,7 @@ code {
   padding: 0;
   border: 0;
   list-style: none;
-  color: #fff;
+  /* color: #fff; */
   text-decoration: none;
   transition: all 0.5s;
 }

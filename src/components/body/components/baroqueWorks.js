@@ -20,19 +20,26 @@ const baroqueWorks = [
     disc: "This is the playerorbit's central website which we worked hard on as a team. Here we provide coaching services for everyone and lead them on the rignt path towards becoming grand master. ",
     link: "https://www.playerorbit.com/",
   },
-  {
-    id: 12,
-    img: cmw,
-    name: "Coach Management Webapp",
-    disc: "This is a platform made for coaches to ease the process of managing their classes.",
-    link: "https://www.cm.playerorbit.com/",
-  },
+  // {
+  //   id: 12,
+  //   img: cmw,
+  //   name: "Coach Management Webapp",
+  //   disc: "This is a platform made for coaches to ease the process of managing their classes.",
+  //   link: "https://www.cm.playerorbit.com/",
+  // },
   {
     id: 7,
     img: ws,
     name: "World Seeker",
     disc: "This is a full stack booking website made in mern stack. Here we can login in to apppoint our own holiday destination and book some that others may post.",
     link: "https://world-seeker.vercel.app/",
+  },
+  {
+    id: 8,
+    img: ttt,
+    name: "Tic Tac Toe",
+    disc: "This is a tic tac toe game which can be played on any browser at any time with a custom built ai which has gone rogue. ",
+    link: "https://r3tr0lastknight.github.io/TIC-TAC-TOE/",
   },
   {
     id: 3,
@@ -48,14 +55,6 @@ const baroqueWorks = [
     disc: "This is the second itteration of the taskmaster web-app, made completely in react. the visuals have been completely overhauled from previous build.",
     link: "https://r3tr0lastknight.github.io/Taskmaster_v2/",
   },
-  {
-    id: 8,
-    img: ttt,
-    name: "Tic Tac Toe",
-    disc: "This is a tic tac toe game which can be played on any browser at any time with a custom built ai which has gone rogue. ",
-    link: "https://r3tr0lastknight.github.io/TIC-TAC-TOE/",
-  },
-
   {
     id: 9,
     img: calci,
