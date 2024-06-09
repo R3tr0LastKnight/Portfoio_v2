@@ -1,13 +1,12 @@
 import React from "react";
 import "./entry.css";
 import "../styles/skillsRes.css";
-import StaggerText from "react-stagger-text";
 
 function Entry(props) {
   return (
     <div className="term transition-all group">
       <a
-        className="anchorP min-h-[18rem] gap-8 relative"
+        className="anchorP min-h-[19rem] gap-8 relative"
         target="blank"
         href={props.link}
       >
@@ -20,8 +19,8 @@ function Entry(props) {
             <img className="h-full w-full" src={props.img} alt="" />
           </span>
         </dt>
-        <div className=" bottom-20 px-8">
-          <span className="title relative  ">{props.name}</span>
+        <div className=" bottom-20 py-4 pb-8 px-8">
+          <span className="title relative text-white  ">{props.name}</span>
 
           {/* <dd className="link text-justify">
             <StaggerText staggerType="word" staggerDuration={0.25}>

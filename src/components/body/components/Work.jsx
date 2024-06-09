@@ -44,7 +44,7 @@ const Work = () => {
 
   return (
     <div className="wonderOfYou flex flex-col">
-      <div className="relative flex flex-col items-center justify-center top-48 px-8">
+      <div className="relative flex flex-col items-center justify-center top-56 px-8">
         <div id="work"></div>
         <h2 className="workTitle  px-6 !text-black min-w-[25rem] justify-center ">
           {/* WORK
