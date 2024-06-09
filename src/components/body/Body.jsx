@@ -19,7 +19,7 @@ const Body = () => {
           speed={100}
           pauseDuration={2000}
           start={true}
-          className="pointer-events-none z-10 absolute w-full flex justify-center top-32  !text-white  !text-5xl font-bold leading-none tracking-tighter font-Major "
+          className="pointer-events-none z-10 absolute w-full flex justify-center top-32  !text-white !text-base lg:!text-5xl font-bold leading-none tracking-tighter font-Major "
         />
         {/* <span className="pointer-events-none z-10 absolute left-[25%] top-16 text-white  text-7xl font-bold leading-none tracking-tighter font-Major ">
           

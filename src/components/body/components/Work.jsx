@@ -44,13 +44,13 @@ const Work = () => {
 
   return (
     <div className="wonderOfYou flex flex-col">
-      <div className="relative flex flex-col items-center justify-center top-56 px-8">
+      <div className="relative flex flex-col items-center justify-center  lg:px-8">
         <div id="work"></div>
-        <h2 className="workTitle  px-6 !text-black min-w-[25rem] justify-center ">
+        <h2 className="workTitle  px-6 !text-black min-w-[25rem] justify-center  ">
           {/* WORK
            */}
           <TextTransition
-            className="flex justify-center text-black"
+            className="flex justify-center text-black "
             style={{ color: "#000", textAlign: "center" }}
             // springConfig={presets.wobbly}
           >
@@ -61,7 +61,7 @@ const Work = () => {
           <dl className="dictionary  ">{baroqueWorks.map(createEntry)}</dl>
         </div>
       </div>
-      <div className="contact  mt-40" id="contact">
+      <div className="contact  lg:mt-" id="contact">
         <div className="ask">
           <h1>Got a project?</h1>
           <h2>Big or Small Hit me up</h2>

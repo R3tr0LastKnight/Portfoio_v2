@@ -3,7 +3,7 @@ import "../styles/body.css";
 
 const Guts = (props) => {
   return (
-    <div className="guts h-[50vh] ">
+    <div className="guts  ">
       <img src={props.src} alt="R3tr0LastKnight" />
     </div>
   );

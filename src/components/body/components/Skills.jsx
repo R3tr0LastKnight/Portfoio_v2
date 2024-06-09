@@ -9,15 +9,15 @@ import "../styles/body.css";
 const Skills = () => {
   return (
     <div className="body relative w-full flex py-8">
-      <div className="w-[60%]">
+      <div className="lg:w-[60%] overflow-hidden">
         <div id="aboutMe" className="" />
         <Me />
       </div>
 
-      <div className="w-[40%] tools">
+      <div className="lg:w-[40%] tools">
         <div>
           <h2 className="w-full whitespace-nowrap">-Skills-</h2>
-          <div className="grid  grid-cols-2 text-sm  gap-x-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 mx-16 md:mx-0 text-sm  gap-x-16">
             {skillIssue.map(SkillEntry)}
           </div>
         </div>
