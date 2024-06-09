@@ -7,7 +7,7 @@ import TextTransition, { presets } from "react-text-transition";
 
 function createEntry(piece) {
   return (
-    <Entryit
+    <Entry
       key={piece.id}
       img={piece.img}
       name={piece.name}
