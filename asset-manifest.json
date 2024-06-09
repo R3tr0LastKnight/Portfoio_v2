@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.525a615a.css",
-    "main.js": "/static/js/main.f599c579.js",
+    "main.js": "/static/js/main.d2b6d03c.js",
     "static/media/wsPre.png": "/static/media/wsPre.616225ebdfeca577c4b2.png",
     "static/media/epicPre.png": "/static/media/epicPre.ec77f6929b48af16f792.png",
     "static/media/tttPre.png": "/static/media/tttPre.2d52358b9c1fad5c2e51.png",
     "static/media/x.jpg": "/static/media/x.4aa5c48f348ff1ecf87d.jpg",
     "static/media/redPre.png": "/static/media/redPre.27a3f71aec979af12c97.png",
     "static/media/playaPre.png": "/static/media/playaPre.78a5b79b743537f85903.png",
-    "static/media/z.jpg": "/static/media/z.1b4bbbfbd5d677355ce5.jpg",
+    "static/media/z.jpg": "/static/media/z.26e36b87eef0de8f4498.jpg",
     "static/media/y.jpg": "/static/media/y.9fd238702e0ae9f67b3b.jpg",
     "static/media/candyPre.png": "/static/media/candyPre.ec581493b26f6b3c405a.png",
     "static/media/fimPre.png": "/static/media/fimPre.79ddfd0bae0cab8e011b.png",
@@ -30,10 +30,10 @@
     "static/media/CSS.svg": "/static/media/CSS.3ec320225ef851ed26cf9fd1c6ebaa54.svg",
     "static/media/HTML.svg": "/static/media/HTML.c1bb84e022ca9d76984d4b943bd678fd.svg",
     "main.525a615a.css.map": "/static/css/main.525a615a.css.map",
-    "main.f599c579.js.map": "/static/js/main.f599c579.js.map"
+    "main.d2b6d03c.js.map": "/static/js/main.d2b6d03c.js.map"
   },
   "entrypoints": [
     "static/css/main.525a615a.css",
-    "static/js/main.f599c579.js"
+    "static/js/main.d2b6d03c.js"
   ]
 }
