@@ -10,7 +10,7 @@ import task1 from "./media/task1Pre.png";
 import temp from "./media/tempsPre.png";
 import calci from "./media/calciPre.png";
 import playa from "./media/playaPre.png";
-import cmw from "./media/cmwPre.png";
+import drn from "./media/runePre.png";
 
 const baroqueWorks = [
   {
@@ -20,13 +20,13 @@ const baroqueWorks = [
     disc: "This is the playerorbit's central website which we worked hard on as a team. Here we provide coaching services for everyone and lead them on the rignt path towards becoming grand master. ",
     link: "https://www.playerorbit.com/",
   },
-  // {
-  //   id: 12,
-  //   img: cmw,
-  //   name: "Coach Management Webapp",
-  //   disc: "This is a platform made for coaches to ease the process of managing their classes.",
-  //   link: "https://www.cm.playerorbit.com/",
-  // },
+  {
+    id: 12,
+    img: drn,
+    name: "Rune Chat",
+    disc: "",
+    link: "https://dark-rune-network.vercel.app/",
+  },
   {
     id: 7,
     img: ws,
