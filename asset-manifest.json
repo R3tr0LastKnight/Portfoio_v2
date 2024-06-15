@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.292c39c9.css",
-    "main.js": "/static/js/main.4380c144.js",
+    "main.js": "/static/js/main.885b269b.js",
     "static/media/wsPre.png": "/static/media/wsPre.616225ebdfeca577c4b2.png",
     "static/media/epicPre.png": "/static/media/epicPre.ec77f6929b48af16f792.png",
     "static/media/tttPre.png": "/static/media/tttPre.2d52358b9c1fad5c2e51.png",
@@ -12,8 +12,8 @@
     "static/media/y.jpg": "/static/media/y.9fd238702e0ae9f67b3b.jpg",
     "static/media/candyPre.png": "/static/media/candyPre.ec581493b26f6b3c405a.png",
     "static/media/fimPre.png": "/static/media/fimPre.79ddfd0bae0cab8e011b.png",
+    "static/media/runePre.png": "/static/media/runePre.fb9a1870b47a2397ad37.png",
     "static/media/task2Pre.png": "/static/media/task2Pre.a920f2ae09772e9eab87.png",
-    "static/media/cmwPre.png": "/static/media/cmwPre.a9f1d6e94010e46877dc.png",
     "static/media/task1Pre.png": "/static/media/task1Pre.e80242cd0709b24c64af.png",
     "static/media/calciPre.png": "/static/media/calciPre.706d7b4ad6942d49e171.png",
     "static/media/tempsPre.png": "/static/media/tempsPre.64a4e4055e3edfd173bd.png",
@@ -30,10 +30,10 @@
     "static/media/CSS.svg": "/static/media/CSS.3ec320225ef851ed26cf9fd1c6ebaa54.svg",
     "static/media/HTML.svg": "/static/media/HTML.c1bb84e022ca9d76984d4b943bd678fd.svg",
     "main.292c39c9.css.map": "/static/css/main.292c39c9.css.map",
-    "main.4380c144.js.map": "/static/js/main.4380c144.js.map"
+    "main.885b269b.js.map": "/static/js/main.885b269b.js.map"
   },
   "entrypoints": [
     "static/css/main.292c39c9.css",
-    "static/js/main.4380c144.js"
+    "static/js/main.885b269b.js"
   ]
 }
