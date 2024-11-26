@@ -11,27 +11,51 @@ import temp from "./media/tempsPre.png";
 import calci from "./media/calciPre.png";
 import playa from "./media/playaPre.png";
 import drn from "./media/runePre.png";
+import delphi from "./media/delphiPre.png";
+import real from "./media/realPre.png";
+import snek from "./media/sneakPre.png";
 
 const baroqueWorks = [
   {
     id: 11,
     img: playa,
     name: "PlayerOrbit",
-    disc: "This is the playerorbit's central website which we worked hard on as a team. Here we provide coaching services for everyone and lead them on the rignt path towards becoming grand master. ",
+    disc: "This is the playerorbit's central website on which i've worked at my internship. Working on this website built my foundation for working in corporate environment. Here we provide coaching services for everyone and lead them on the rignt path towards becoming grand master. ",
     link: "https://www.playerorbit.com/",
+  },
+  {
+    id: 11,
+    img: delphi,
+    name: "Delphi Analytics",
+    disc: "Delphi Analytics is also a project which I've worked at my internship. This project gave me valuable insights about dealing with clients and fullfill their needs. Delphi Analytics is a data analytics service provider, working with major brands and partners.",
+    link: "https://www.delphianalytics.in/",
+  },
+  {
+    id: 11,
+    img: real,
+    name: "Real CRM",
+    disc: "Real crm is my first major fullstack project I've picked up which had me working with various new technologies as per client needs and requirements. unfortunately this project cannot be shown by me to anyone due to being under nda. ",
+    link: "/",
+  },
+  {
+    id: 11,
+    img: snek,
+    name: "Sneak peek",
+    disc: "This is a fullstack project made with mern stack in intention with selling shoes online market. This is a fully functional website, from login to secure payment thus feature compelete and client ready. ",
+    link: "https://sneak-peek-fn.vercel.app/",
   },
   {
     id: 12,
     img: drn,
     name: "Rune Chat",
-    disc: "",
+    disc: "This is a chat app made with react in addition to firebase. This project taught me a lot about how messaging works and gave me valuable insights to firebase as all the messages are stored and retrived from there.",
     link: "https://dark-rune-network.vercel.app/",
   },
   {
     id: 7,
     img: ws,
     name: "World Seeker",
-    disc: "This is a full stack booking website made in mern stack. Here we can login in to apppoint our own holiday destination and book some that others may post.",
+    disc: "This is a full stack booking website made in mern stack. here we can book our holiday package to some quite intresting places. Working on this i had quite a learning experience form react to aws.",
     link: "https://world-seeker.vercel.app/",
   },
   {

@@ -21,17 +21,16 @@ function createEntry(piece) {
 // }
 
 const Work = () => {
-  const TEXTS = ["Projects", "Tour De Force", "Magnum Opus", "Work"];
+  // const TEXTS = ["Projects", "Tour De Force", "Magnum Opus", "Work"];
   // const TEXTS = ["Works", "Arbeiten", "仕事", "Работа"];
-  // const TEXTS = [
-  //   "Projects",
-  //   "プロジェクト",
-  //   "Progetti",
-  //   "Проекты",
-  //   "Proyectos",
-  //   "परियोजनाओं",
-  //   "Projekte",
-  // ];
+  const TEXTS = [
+    "Projects",
+    "プロジェクト",
+    "Progetti",
+    "Проекты",
+    "Proyectos",
+    "Projekte",
+  ];
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
@@ -50,7 +49,7 @@ const Work = () => {
           {/* WORK
            */}
           <TextTransition
-            className="flex justify-center text-black "
+            className="flex justify-center text-black my-4 lg:my-0 "
             style={{ color: "#000", textAlign: "center" }}
             // springConfig={presets.wobbly}
           >
@@ -67,8 +66,8 @@ const Work = () => {
           <h2>Big or Small Hit me up</h2>
         </div>
         <div className="emailButton">
-          <a id="emilID" href="mailto:r3tr0LastKnight@gmail.com">
-            R3tr0LastKnight@gmail.com
+          <a id="emilID" href="mailto:shubh14shahu@gmail.com">
+            shubh14shahu@gmail.com
           </a>
         </div>
       </div>

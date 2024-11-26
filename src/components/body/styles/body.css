@@ -137,4 +137,5 @@ html {
 .skillName {
   padding-right: 10px;
   white-space: nowrap;
+  transition: all 0.1 !important;
 }
