@@ -45,11 +45,11 @@ const Work = () => {
     <div className="wonderOfYou flex flex-col">
       <div className="relative flex flex-col items-center justify-center  lg:px-8">
         <div id="work"></div>
-        <h2 className="workTitle  px-6 !text-black min-w-[25rem] justify-center  ">
+        <h2 className="workTitle  px-6 !text-black lg:min-w-[25rem] justify-center  ">
           {/* WORK
            */}
           <TextTransition
-            className="flex justify-center text-black my-4 lg:my-0 "
+            className="flex justify-center text-black text-2xl lg:text-4xl my-4 lg:my-0 "
             style={{ color: "#000", textAlign: "center" }}
             // springConfig={presets.wobbly}
           >

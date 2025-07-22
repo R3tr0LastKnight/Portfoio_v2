@@ -12,7 +12,7 @@ nav li {
   font-family: "Press Start 2P", cursive;
 }
 nav li:hover {
-  border-bottom: dashed white;
+  border-bottom: dashed black;
 }
 nav ul {
   float: right;

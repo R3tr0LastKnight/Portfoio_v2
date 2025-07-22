@@ -44,8 +44,8 @@ const Nav = () => {
 
   return (
     <nav
-      className={`text-white fixed top-0 flex justify-between bg-black w-full z-50 ${
-        nav ? "opacity-100" : "opacity-0"
+      className={`text-black fixed top-0 flex justify-between bg-white w-full z-50  ${
+        nav ? "opacity-100 shadow-[0_3px_10px_rgb(0,0,0,0.2)]" : "opacity-0"
       }`}
     >
       <div
@@ -63,7 +63,12 @@ const Nav = () => {
       {/* <h1>{displayText}</h1> */}
       <ul className="flex gap-4">
         <li>
-          <a href="#aboutMe">About</a>
+          <a
+            // className="hover:border-b border-b-black border-dashed transition-all"
+            href="#aboutMe"
+          >
+            About
+          </a>
         </li>
         <li>
           <a href="#work">work</a>
