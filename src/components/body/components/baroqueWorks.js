@@ -42,7 +42,7 @@ const baroqueWorks = [
     img: snek,
     name: "Sneak peek",
     disc: "This is a fullstack project made with mern stack in intention with selling shoes online market. This is a fully functional website, from login to secure payment thus feature compelete and client ready. ",
-    link: "https://sneak-peek-fn.vercel.app/",
+    link: "https://sneak-peek.vercel.app/",
   },
   {
     id: 12,
